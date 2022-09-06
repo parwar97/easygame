@@ -403,6 +403,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b932ee2183c74b440ad802f9709b189d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  needle: {fileID: 1932135253}
 --- !u!1 &1932135252
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,6 +434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46c1e61daaba5a94f8a21bf9617f7ee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isTethered: 1
 --- !u!212 &1932135254
 SpriteRenderer:
   m_ObjectHideFlags: 0
