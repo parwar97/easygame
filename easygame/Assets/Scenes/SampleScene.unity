@@ -275,7 +275,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   jumpForce: 10
-  jumpTime: 0.1
+  jumpTime: 0.3
+  gravityScaleAfterChange: 9
 --- !u!61 &701445280
 BoxCollider2D:
   m_ObjectHideFlags: 0

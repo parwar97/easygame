@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     private float jumpTimeCounter;
     public float jumpTime;
     private bool isJumping;
+    public float gravityScaleAfterChange;
 
     private void Awake()
     {
@@ -31,6 +32,14 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         isGrounded = Physics2D.OverlapCircle(feetPos.position, checkRadius, whatIsGround);
+        if(isGrounded==true)
+        {
+            rb.gravityScale = 3;
+        }
+        if (isGrounded==false && Input.GetKeyDown(KeyCode.S))
+        {
+            rb.gravityScale = gravityScaleAfterChange;
+        }
 
         if (isGrounded == true && Input.GetKeyDown(KeyCode.W))
         {
@@ -50,7 +59,7 @@ public class PlayerMovement : MonoBehaviour
                 isJumping = false;
             }
         }
-        if (Input.GetKeyUp(KeyCode.UpArrow))
+        if (Input.GetKeyUp(KeyCode.W))
         {
             isJumping = false;
         }
