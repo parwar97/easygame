@@ -270,11 +270,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 8
   feetPos: {fileID: 505268353}
-  checkRadius: 0.3
+  checkRadius: 0.4
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
-  jumpForce: 7
+  jumpForce: 10
   jumpTime: 0.1
 --- !u!61 &701445280
 BoxCollider2D:
@@ -317,7 +317,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
