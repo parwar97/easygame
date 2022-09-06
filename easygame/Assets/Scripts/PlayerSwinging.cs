@@ -19,12 +19,13 @@ public class PlayerSwinging : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(needle.isTethered = true)
+        if(needle.isTethered == true)
         {
-            Vector testPosition = transform.position + rb.velocity * Time.deltaTime;
-            if (testPosition - needle.getTetherPoint()).Length() > tetherLength )
+            Vector2 transform2D = transform.position;
+            Vector2 testPosition = transform2D + rb.velocity * Time.deltaTime;
+            if (testPosition.magnitude > tetherLength )
             {
-                testPosition = (testPosition - needle.getTetherPoint()).Normalized() * tetherLength;
+                testPosition = (testPosition - needle.getTetherPoint()).normalized * tetherLength;
             }
 
         }

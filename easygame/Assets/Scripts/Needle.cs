@@ -5,7 +5,7 @@ using UnityEngine;
 public class Needle : MonoBehaviour
 {
     private float tetherLength;
-    private Vector tetherPoint;
+    private Vector2 tetherPoint;
     public bool isTethered;
     // Start is called before the first frame update
     void Start()
@@ -19,9 +19,15 @@ public class Needle : MonoBehaviour
         
     }
 
-    Vector getTetherpoint()
+    public Vector2 getTetherPoint()
     {
         return tetherPoint;
     }
-    
+
+    public float getTetherLength()
+    {
+        return tetherLength;
+    }
+
+
 }
