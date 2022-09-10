@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     public float jumpTime;
     private bool isJumping;
     public float gravityScaleAfterChange;
+    public Needle needle;
 
     private void Awake()
     {
@@ -36,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.gravityScale = 3;
         }
-        if (isGrounded==false && Input.GetKeyDown(KeyCode.S))
+        if (isGrounded==false && Input.GetKey(KeyCode.S))
         {
             rb.gravityScale = gravityScaleAfterChange;
         }

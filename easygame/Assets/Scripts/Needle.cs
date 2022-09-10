@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Needle : MonoBehaviour
 {
-    private float tetherLength;
+    public float tetherLength;
     private Vector2 tetherPoint;
     public bool isTethered;
     // Start is called before the first frame update
@@ -16,11 +16,19 @@ public class Needle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if ((Input.GetKey(KeyCode.K)))
+        {
+            isTethered = true;
+        }
+        else
+        {
+            isTethered = false;
+        }
     }
 
     public Vector2 getTetherPoint()
     {
+        tetherPoint = transform.position;
         return tetherPoint;
     }
 

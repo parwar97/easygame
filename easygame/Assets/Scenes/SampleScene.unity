@@ -279,6 +279,7 @@ MonoBehaviour:
   jumpForce: 10
   jumpTime: 0.3
   gravityScaleAfterChange: 9
+  needle: {fileID: 0}
 --- !u!61 &701445280
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -405,6 +406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   needle: {fileID: 1932135253}
+  max_speed_y: 0.1
 --- !u!95 &701445285
 Animator:
   serializedVersion: 3
@@ -454,7 +456,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46c1e61daaba5a94f8a21bf9617f7ee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTethered: 1
+  tetherLength: 2
+  isTethered: 0
 --- !u!212 &1932135254
 SpriteRenderer:
   m_ObjectHideFlags: 0
