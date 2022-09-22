@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private float moveInput;
 
     private bool isGrounded;
+    private bool isFacingRight = true;
     public Transform feetPos;
     public float checkRadius;
     public LayerMask whatIsGround;
@@ -19,8 +20,12 @@ public class PlayerMovement : MonoBehaviour
     public float gravityScaleAfterChange;
     public Needle needle;
 
+    private Animator anim;
+
+
     private void Awake()
     {
+        anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -29,9 +34,18 @@ public class PlayerMovement : MonoBehaviour
         moveInput = Input.GetAxisRaw("Horizontal");
 
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+        if(moveInput==0)
+        {
+            anim.SetBool("isRunning", false);
+        }
+        else
+        {
+            anim.SetBool("isRunning", true);
+        }
     }
     void Update()
     {
+        Flip();
         isGrounded = Physics2D.OverlapCircle(feetPos.position, checkRadius, whatIsGround);
         if(isGrounded==true)
         {
@@ -63,6 +77,16 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.W))
         {
             isJumping = false;
+        }
+    }
+    private void Flip()
+    {
+        if(isFacingRight && moveInput <0f || !isFacingRight && moveInput > 0f)
+        {
+            isFacingRight = !isFacingRight;
+            Vector3 localScale = transform.localScale;
+            localScale.x *= -1f;
+            transform.localScale = localScale;
         }
     }
 }
