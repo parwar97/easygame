@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: cca35cdc41881e14e92cf05a2db5378f
+guid: 373dafcb52b3f8e4a975064b925301e0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5813839146613690014
-    second: IglowiecRunSpriteSheet_0
+      213: -3881693607225286784
+    second: IglowiecRunSpriteSheet2_0
   - first:
-      213: -1670943130068634572
-    second: IglowiecRunSpriteSheet_1
+      213: -3257936060888644692
+    second: IglowiecRunSpriteSheet2_1
   - first:
-      213: -4359355212180571478
-    second: IglowiecRunSpriteSheet_2
+      213: -1389214197202614960
+    second: IglowiecRunSpriteSheet2_2
   - first:
-      213: -7866835004253810389
-    second: IglowiecRunSpriteSheet_3
+      213: 138359408176155604
+    second: IglowiecRunSpriteSheet2_3
   - first:
-      213: 8036649114735329952
-    second: IglowiecRunSpriteSheet_4
+      213: 650087536918662958
+    second: IglowiecRunSpriteSheet2_4
   - first:
-      213: -6454505877845330891
-    second: IglowiecRunSpriteSheet_5
+      213: -3361148844235364696
+    second: IglowiecRunSpriteSheet2_5
   - first:
-      213: 3530546398267904472
-    second: IglowiecRunSpriteSheet_6
+      213: 4568403933775111036
+    second: IglowiecRunSpriteSheet2_6
   - first:
-      213: 2846857439736097997
-    second: IglowiecRunSpriteSheet_7
+      213: 6381377082401639451
+    second: IglowiecRunSpriteSheet2_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -115,7 +115,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IglowiecRunSpriteSheet_0
+      name: IglowiecRunSpriteSheet2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -129,14 +129,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9e4b2b96e7eea050800000000000000
-      internalID: 5813839146613690014
+      spriteID: 08f9e66fa34712ac0800000000000000
+      internalID: -3881693607225286784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IglowiecRunSpriteSheet_1
+      name: IglowiecRunSpriteSheet2_1
       rect:
         serializedVersion: 2
         x: 164
@@ -150,14 +150,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4343164831e9fc8e0800000000000000
-      internalID: -1670943130068634572
+      spriteID: ca30cc5f96c79c2d0800000000000000
+      internalID: -3257936060888644692
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IglowiecRunSpriteSheet_2
+      name: IglowiecRunSpriteSheet2_2
       rect:
         serializedVersion: 2
         x: 328
@@ -171,14 +171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aaaba3808857083c0800000000000000
-      internalID: -4359355212180571478
+      spriteID: 0550fca4c0588bce0800000000000000
+      internalID: -1389214197202614960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IglowiecRunSpriteSheet_3
+      name: IglowiecRunSpriteSheet2_3
       rect:
         serializedVersion: 2
         x: 492
@@ -192,14 +192,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b21d7d07e3363d290800000000000000
-      internalID: -7866835004253810389
+      spriteID: 4db4caf062d8be100800000000000000
+      internalID: 138359408176155604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IglowiecRunSpriteSheet_4
+      name: IglowiecRunSpriteSheet2_4
       rect:
         serializedVersion: 2
         x: 656
@@ -213,14 +213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a2c1443ac9e78f60800000000000000
-      internalID: 8036649114735329952
+      spriteID: e2f02f6ab23950900800000000000000
+      internalID: 650087536918662958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IglowiecRunSpriteSheet_5
+      name: IglowiecRunSpriteSheet2_5
       rect:
         serializedVersion: 2
         x: 820
@@ -234,14 +234,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 534bb5ef91dfc66a0800000000000000
-      internalID: -6454505877845330891
+      spriteID: 8a6e22e2fecca51d0800000000000000
+      internalID: -3361148844235364696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IglowiecRunSpriteSheet_6
+      name: IglowiecRunSpriteSheet2_6
       rect:
         serializedVersion: 2
         x: 984
@@ -255,14 +255,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d11bcb5e350ff030800000000000000
-      internalID: 3530546398267904472
+      spriteID: c73a92f5c2b366f30800000000000000
+      internalID: 4568403933775111036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IglowiecRunSpriteSheet_7
+      name: IglowiecRunSpriteSheet2_7
       rect:
         serializedVersion: 2
         x: 1148
@@ -276,8 +276,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcce5a512c1128720800000000000000
-      internalID: 2846857439736097997
+      spriteID: b1c4e5e75a43f8850800000000000000
+      internalID: 6381377082401639451
       vertices: []
       indices: 
       edges: []
